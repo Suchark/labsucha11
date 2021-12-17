@@ -8,7 +8,8 @@ int main (){
 	ofstream dest;
 	source.open("cheerbook.txt");
 	dest.open("cheerbook_copy.txt");
-	
+
+
 	string textline;
     dest << "-------------------- BOOM ---------------------\n";
     while(getline(source, textline))
@@ -16,6 +17,7 @@ int main (){
         dest << textline << "\n";
     }
     dest << "-------------------- HA!! ---------------------";
+
 
     source.close();
     dest.close();
