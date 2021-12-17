@@ -12,6 +12,7 @@ int main()
     float sum = 0, sum2 = 0;
     string textline;
     ifstream source("score.txt");
+    
     while(getline(source, textline))
     {
         sum += atof(textline.c_str());
