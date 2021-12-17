@@ -1,2 +1,2 @@
-# NAME:
-# STUDENT ID:
+# NAME: นางสาว ศุชานุช รินคำ
+# STUDENT ID: 640610670
